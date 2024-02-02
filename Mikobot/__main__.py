@@ -249,7 +249,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 parse_mode=ParseMode.MARKDOWN,
             )
             await asyncio.sleep(0.2)
-            guu = await update.effective_message.reply_text("⚡")
+            guu = await update.effective_message.reply_text("✨")
             await asyncio.sleep(1.8)
             await guu.delete()  # Await this line
             await update.effective_message.reply_text(
@@ -494,14 +494,14 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"
+                            text="ᴅʀᴇᴀᴍʏ", url=f"https://t.me/mastiwithfriendsx"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Miko_"),
                     ],
                 ]
             ),
@@ -530,7 +530,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         [
                             InlineKeyboardButton(
-                                text="HELP",
+                                text="ʜᴇʟᴘ & ᴄᴍɴᴅs",
                                 url="https://t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -546,7 +546,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 [
                     [
                         InlineKeyboardButton(
-                            text="OPEN IN PM",
+                            text=" ʀᴇᴅɪʀᴇᴄᴛ ᴛᴏ ᴅᴍ ",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -554,7 +554,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="OPEN HERE",
+                            text="ᴏᴘᴇɴ ʜᴇʀᴇ",
                             callback_data="help_back",
                         )
                     ],
