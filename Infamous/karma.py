@@ -48,25 +48,32 @@ MUTE_GIFS = [
 
 FIRST_PART_TEXT = "✨ *ʙᴜᴅᴅʏ🪄✨* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ˹ 𝐀ʟᴇxᴀ ✘ 𝗥𝙾𝙱𝙾 ˼, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "✨ *ɪ ᴀᴍ ˹ 𝐀ʟᴇxᴀ ✘ 𝗥𝙾𝙱𝙾 ˼, ━━━━━━━━━━━━━━━━━━━━━━
+
+๏ ɪ ᴀᴍ  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.
+
+๏  ᴛʜᴇᴍᴇ ➛ ᴀɴɪᴍᴇ ʙᴀsᴇᴅ
+๏  ғᴇᴀᴛᴜʀᴇ ➛ ᴠᴄ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴀɪ 
+
+๏ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ʙᴏᴛ, ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ*"
 
 START_BTN = [
     [
         InlineKeyboardButton(
-            text="✨sᴜᴍᴍᴏɴ ᴍᴇ✨",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            text="ᴄʜᴀᴛ ɢʀᴏᴜᴘ",
+            url=f"https://t.me/mastiwithfriendsx",
         ),
     ],
     [
-        InlineKeyboardButton(text="🪄ᴄᴏᴍᴍᴀɴᴅs🪄", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="▫️ᴀʙᴏᴜᴛ▫️", callback_data="Miko_"),
-        InlineKeyboardButton(text="🔹ᴀɪ ʀᴏʙᴏ🔹", callback_data="ai_handler"),
-        InlineKeyboardButton(text="⚡sᴛʀᴀɴɢᴇʀ⚡", callback_data="git_source"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴀʟᴇxᴀ", callback_data="Miko_"),
+        InlineKeyboardButton(text="ɢᴘᴛ & ᴍᴏʀᴇ", callback_data="ai_handler"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ ᴄᴍɴᴅ", callback_data="git_source"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/strangers_bots"),
+        InlineKeyboardButton(text="𝐀ᴅᴅ ᴍᴇ 𝐁ᴀʙʏ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
 ]
 
@@ -78,19 +85,19 @@ GROUP_START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="✨ʜᴏᴜsᴇ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="⚡ᴅᴇᴠ⚡", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ʜᴏᴜsᴇ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="sᴛ ᴡᴏʀʟᴅ", url=f"https://t.me/mastiwithfriendsx"),
     ],
 ]
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/about_x_alexa"),
-        ib(text="SUPPORT", url="https://t.me/Alexa_X_Support"),
+        ib(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/about_x_alexa"),
+        ib(text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Alexa_X_Support"),
     ],
     [
         ib(
-            text="⇦ ADD ME ⇨",
+            text=" ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴀʙʏ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -99,7 +106,9 @@ ALIVE_BTN = [
 HELP_STRINGS = """
 🫧 *˹ 𝐀ʟᴇxᴀ ✘ 𝗥𝙾𝙱𝙾 ˼* 🫧
 
-☉ * ʜ⚡ᴇʏᴀ ᴀʟʟ ᴀʟᴇxᴀ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ʜᴇʀᴇ ʀᴇᴀᴅ ᴄᴀʀᴇғᴜʟʟʏ ⚡.*
+☉ * ๏ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ
 
-ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
+๏ ᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ➠ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/alexa_x_support).*
+
+๏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ➠ /
 """
